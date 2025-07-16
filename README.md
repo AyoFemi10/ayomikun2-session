@@ -20,7 +20,7 @@
 
 FORK THE REPOSITORY (Repo) 
     <br>
-<a href="https://github.com/Itxxayomikun/AYOMIKUN-MD-QR"><img title="WEB" src="https://img.shields.io/badge/FORK Wasi-QR?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/Itxxayomikun/AYOMIKUN-MD-QR">< <img src="https://github.com/AyoFemi10.png" width="200" height="200" alt="Malvin King"/<a>
 
 Now Deploy
     <br>
