@@ -58,7 +58,7 @@ router.get('/', async (req, res) => {
 				   let b64data = Buffer.from(data).toString('base64');
 				   let session = await Qr_Code_By_Ayomikun.sendMessage(Qr_Code_By_Ayomikun.user.id, { text: '' + b64data });
 	
-				   let WASI_MD_TEXT = `
+				   let AYOMIKUN_MD_TEXT = `
 *_Session Connected By AYOMIKUN*
 *_Made With 🤍_*
 ______________________________________
@@ -78,7 +78,7 @@ ______________________________________
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
-	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
+	 await Qr_Code_By_Ayomikun_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:AYOMIKUN_MD_TEXT},{quoted:session})
 
 
 
