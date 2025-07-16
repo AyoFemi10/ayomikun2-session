@@ -43,8 +43,8 @@ router.get('/', async (req, res) => {
 				browser: Browsers.macOS("Desktop"),
 			});
 
-			Qr_Code_By_Wasi_Tech.ev.on('creds.update', saveCreds)
-			Qr_Code_By_Wasi_Tech.ev.on("connection.update", async (s) => {
+			Qr_Code_By_Ayomikun_Tech.ev.on('creds.update', saveCreds)
+			Qr_Code_By_Ayomikun_Tech.ev.on("connection.update", async (s) => {
 				const {
 					connection,
 					lastDisconnect,
